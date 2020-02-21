@@ -1,0 +1,13 @@
+
+<ul>
+    {{#each data}}
+    <li>{{@key}}: {{this}}</li>
+    {{/each}}
+</ul>
+<form action="/" method="POST">
+
+    <label for="visibility">Visibility: </label>
+    <input type="text" name="visibility"></input>
+    <br>
+    <input type="submit" value="send">
+</form>
