@@ -13,6 +13,7 @@ p{
 li{
     display: flex;
     justify-content: center;
+    font-size: x-large;
 }
 label{
     display: flex;

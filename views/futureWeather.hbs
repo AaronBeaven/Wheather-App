@@ -1,0 +1,13 @@
+
+<ul>
+    {{#each data}}
+    <li>{{@key}}: {{this}}</li>
+    {{/each}}
+</ul>
+<form action="/futureWeather" method="POST">
+
+    <label for="futureWeather">Future Weather: </label>
+    <input type="text" name="futureWeather"></input>
+    <br>
+    <input type="submit" value="send">
+</form>
